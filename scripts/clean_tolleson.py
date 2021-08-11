@@ -31,6 +31,9 @@ def clean(dist):
     dist = dist.groupby(['Object_code'])['YTD Transactions'].sum().reset_index()
     dist = dist.rename(columns={'YTD Transactions': 'Transactions'})
 
+    #round to 2 decimal places
+    dist = dist.round(2)
+
     return dist
 
 def create_csv(dist):
