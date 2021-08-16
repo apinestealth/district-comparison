@@ -17,13 +17,14 @@ def process_data():
 def clean_all(raw_dist):
     dist = raw_dist[~raw_dist.DESCRIPTION.str.contains('TOTAL')]
     dist = dist.drop(columns=['Unnamed: 1', 'DESCRIPTION'])
-    dist = dist.rename(columns={'ACCOUNT': 'Object_code', ' AMOUNT ': 'Transactions'})
+    dist = dist.rename(columns={'ACCOUNT': 'Code', ' AMOUNT ': 'Transactions'})
 
     return dist
 
 #isolate object code
 def get_code(dist):
-    dist['Object_code'] = dist['Object_code'].str[5:8]
+    dist['Code'] = dist['Code'].str[5:8]
+    dist['Code'] = dist['Code'].astype(str)
 
     return dist
 
@@ -31,7 +32,7 @@ def get_code(dist):
 def clean_transactions(dist):
     dist['Transactions'] = dist['Transactions'].str.translate({ord(x): '' for x in replace})
     dist['Transactions'] = np.double(dist['Transactions'])
-    dist = dist.groupby(['Object_code'])['Transactions'].sum().reset_index()
+    dist = dist.groupby(['Code'])['Transactions'].sum().reset_index()
     dist = dist.round(2)
 
     return dist

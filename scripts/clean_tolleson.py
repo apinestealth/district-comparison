@@ -7,7 +7,9 @@ raw_dist = pd.read_csv(data_dir + 'raw/arizonaExample.csv')
 #run main
 def process_data():
     dist = get_code(raw_dist)
-    dist = clean(dist)
+    dist = clean_sheet(dist)
+    dist = clean_transactions(dist)
+    dist = clean_codes(dist)
     create_csv(dist)
 
 #isolate out the object code
@@ -17,12 +19,14 @@ def get_code(raw_dist):
 
     return raw_dist
 
-#clean the district spreadsheet and make YTD Transactions useable data
-def clean(dist):
-    #filter only expenditures & remove unneccesary columns
+#filter only expenditures & remove unneccesary columns
+def clean_sheet(dist):
     dist = dist[dist['Account Type']=="EXPENDITURE"]
     dist = dist.drop(columns=['Active', 'Account', 'Description', 'Account Type', 'Budget Control Group', 'Budget', 'Balance', 'Budget Balance', 'Encumbrance', 'Pre Encumbrance', 'Pending Invoices', 'Uncommitted Balance'])
 
+    return dist
+
+def clean_transactions(dist):
     #convert transactions into numbers
     replace = [',', '$', '-', '(', ')']
     dist['YTD Transactions'] = dist['YTD Transactions'].str.translate({ord(x): '' for x in replace}).astype(float)
@@ -33,6 +37,13 @@ def clean(dist):
 
     #round to 2 decimal places
     dist = dist.round(2)
+
+    return dist
+
+def clean_codes(dist):
+    dist = dist.rename(columns={'Object_code': 'Code'})
+    dist['Code'] = dist['Code'].astype(str)
+    dist['Code'] = dist['Code'].str.strip()
 
     return dist
 
