@@ -2,12 +2,14 @@ import pandas as pd
 import numpy as np
 import sys
 
+#clean input
 args = sys.argv[1:]
 district_1 = args[0].lower()
 state_1 = args[1].capitalize()
 district_2 = args[2].lower()
 state_2 = args[3].capitalize()
 
+#load data
 data_dir = '/Users/annagreene/code/district-comparison/data/'
 mapping = pd.read_csv(data_dir + 'processed/mapping.csv')
 dist_1_og = pd.read_csv(data_dir + 'processed/' + district_1 + '.csv')
@@ -16,9 +18,7 @@ dist_2_og = pd.read_csv(data_dir + 'processed/' + district_2 + '.csv')
 def main():
     maps = create_maps(mapping, state_1, state_2)
     dists = find_unmatched(dist_1_og, maps[0], dist_2_og, maps[1])
-    dist_1 = dists[0]
-    dist_2 = dists[1]
-    merges = map(dist_1, maps[0], dist_2, maps[1])
+    merges = map(dists[0], maps[0], dists[1], maps[1])
     create_csv(merges)
 
 def create_maps(mapping, state_1, state_2):
@@ -62,6 +62,9 @@ def find_unmatched(dist_1, dist_1_map, dist_2, dist_2_map):
 def map(dist_1, dist_1_map, dist_2, dist_2_map):
     dist_1_merge = dist_1.merge(dist_1_map, how='left', on='Code')
     dist_2_merge = dist_2.merge(dist_2_map, how='left', on='Code')
+    
+    dist_1_merge['district'] = district_1.capitalize()
+    dist_2_merge['district'] = district_2.capitalize()
     #dist_1_subcategories = dist_1_merge.groupby("Category_Edstruments")['Transactions'].sum().reset_index()
     #dist_2_subcategories = dist_2_merge.groupby("Category_Edstruments")['Transactions'].sum().reset_index()
 

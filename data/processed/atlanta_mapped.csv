@@ -1,107 +1,107 @@
-,Code,Transactions,Category_Edstruments,Major_Category_Edstruments,Title,State
-0,110,225480415.94,Teachers Salaries,Salaries,TEACHERS,Georgia
-1,111,144657.0,Support Staff Salaries,Salaries,SCHOOL BOARD MEMBERS SALARIES,Georgia
-2,112,5384202.79,Teachers Salaries,Salaries,PREKINDERGARTEN TEACHER,Georgia
-3,113,5684627.67,Other Salaries,Salaries,SUBSTITUTE/TEMPORARY EMPLOYEE,Georgia
-4,114,507209.28,Other Salaries,Salaries,SUBSTITUTE/TEMPORARY EMPLOYEE,Georgia
-5,115,166213.77,Teachers Salaries,Salaries,EXTENDED DAY - TEACHERS,Georgia
-6,116,3537254.17,Other Salaries,Salaries,PROFESSIONAL DEVELOPMENT STIPENDS,Georgia
-7,117,7000.0,Other Salaries,Salaries,EXTENDED YEAR,Georgia
-8,118,34596115.09,Teachers Salaries,Salaries,"ART,MUSIC,PE",Georgia
-9,120,473915.31,Administrative Salaries,Salaries,"SUPERINTENDENT, RESA DIRECTOR, TECHNICAL INSTITUTE DIRECTOR",Georgia
-10,121,246492.0,Administrative Salaries,Salaries,"HEADS OF COMPONENTS - DEPUTY, ASSOC, ASSISTANT, AREA SUPT ",Georgia
-11,130,14726889.54,Administrative Salaries,Salaries,PRINCIPAL,Georgia
-12,131,17196080.19,Administrative Salaries,Salaries,ASSISTANT PRINCIPAL,Georgia
-13,140,22529415.13,Support Staff Salaries,Salaries,AIDES AND PARAPROFESSIONALS,Georgia
-14,141,3772278.31,Special Education Salaries,Salaries,Preschool Special Education Teacher,Georgia
-15,141,3772278.31,Support Staff Salaries,Salaries,Salary Of Seretarial Staff,Georgia
-16,142,7788994.46,Support Staff Salaries,Salaries,Salary Of Clerical Staff,Georgia
-17,143,1030249.22,Other Salaries,Salaries,RESEARCH PERSONNEL,Georgia
-18,145,133040.0,Special Education Salaries,Salaries,INTERPRETER,Georgia
-19,146,3594026.35,Other Salaries,Salaries,ATHLETICS PERSONNEL,Georgia
-20,148,141278.65,Other Salaries,Salaries,ACCOUNTANT,Georgia
-21,151,108066.0,Other Salaries,Salaries,LEGAL PERSONNEL,Georgia
-22,161,2549340.77,Special Education Salaries,Salaries,Teacher of Moderate Intellectual Disability Students,Georgia
-23,161,2549340.77,Other Salaries,Salaries,TECHNOLOGY SPECIALIST,Georgia
-24,162,224777.6,Special Education Salaries,Salaries,Teacher of Severe Intellectual Disability Students,Georgia
-25,162,224777.6,Other Salaries,Salaries,PLANNING & EVALUATION PERSONNEL,Georgia
-26,163,3370326.14,Special Education Salaries,Salaries,Teacher of ProfoundIntellectual Disability Students,Georgia
-27,163,3370326.14,Support Staff Salaries,Salaries,SCHOOL NURSE/SPECIAL EDUCATION NURSE LPN,Georgia
-28,164,710742.5,Special Education Salaries,Salaries,Teacher of Hearing Impaired Students,Georgia
-29,164,710742.5,Support Staff Salaries,Salaries,PHYSICAL/OCCUPATIONAL/MOBILITY/SPEECH THERAPIST,Georgia
-30,165,4167108.94,Special Education Salaries,Salaries,Teacher of Visually Impaired Students,Georgia
-31,165,4167108.94,Support Staff Salaries,Salaries,LIBRARIAN/MEDIA SPECIALIST,Georgia
-32,171,186942.0,Special Education Salaries,Salaries,Special Education Interrelated Teacher,Georgia
-33,171,186942.0,Support Staff Salaries,Salaries,TEACHER SUPPORT SPECIALIST/DIAGNOSTICIAN/AUDIOLOGI,Georgia
-34,172,3768790.14,Support Staff Salaries,Salaries,ELEMENTARY COUNSELOR,Georgia
-35,173,5668669.21,Support Staff Salaries,Salaries,SECONDARY COUNSELOR,Georgia
-36,174,2922414.42,Support Staff Salaries,Salaries,SCHOOL PSYCHOLOGIST,Georgia
-37,176,3630788.25,Support Staff Salaries,Salaries,SCHOOL SOCIAL WORKER,Georgia
-38,177,517759.78,Other Salaries,Salaries,Family Services/Parent Coordinator,Georgia
-39,178,683357.44,Other Salaries,Salaries,Graduation Coach,Georgia
-40,179,163408.0,Support Staff Salaries,Salaries,REHABILITATION COUNSELOR,Georgia
-41,180,8077807.81,Support Staff Salaries,Salaries,BUS DRIVERS,Georgia
-42,181,17533634.24,Other Salaries,Salaries,"MAINTENANCE PERSONNEL, TRANSPORTATION MECHANIC, OT",Georgia
-43,184,2026519.72,Other Salaries,Salaries,SCHOOL NUTRITION PROGRAM CAFETERIA,Georgia
-44,186,6028588.56,Support Staff Salaries,Salaries,CUSTODIAL PERSONNEL,Georgia
-45,190,13138669.26,Administrative Salaries,Salaries,OTHER MANAGEMENT PERSONNEL,Georgia
-46,191,61670973.45,Administrative Salaries,Salaries,OTHER ADMINISTRATIVE PERSONNEL,Georgia
-47,199,3791016.32,Other Salaries,Salaries,Other Salaries and Compensation,Georgia
-48,210,69755580.02,Health Insurance/Health Related Benefits,Employee Benefits,State Health Insurance,Georgia
-49,220,8405296.33,Retirement Contributions,Employee Benefits,FICA,Georgia
-50,230,89642008.26,Retirement Contributions,Employee Benefits,Teachers Retirement System,Georgia
-51,260,4804124.33,Workers Compensation,Employee Benefits,Workmen Compensation,Georgia
-52,290,57670711.26,Other Employee Benefits,Employee Benefits,Other Employee Benefits,Georgia
-53,300,103369420.54,Other Purchased Services,Purchased Professional and Technical Services,PURCHASED PROFESSIONAL AND TECHNICAL SERVICES,Georgia
-54,311,5000.0,Other Purchased Services,Purchased Professional and Technical Services,SCHOOL BOARD MEMBERS PER DIEM,Georgia
-55,321,6093756.0,Other Purchased Services,Purchased Professional and Technical Services,Contracted Service - Teachers,Georgia
-56,322,34088.0,Other Purchased Services,Purchased Professional and Technical Services,"Contracted Service - Art,Music,P.E.",Georgia
-57,330,111280.0,Other Purchased Services,Purchased Professional and Technical Services,Contracted Service -Nursing Services,Georgia
-58,332,904.0,Purchased Professional Services,Purchased Professional and Technical Services,"DRUG AND ALCOHOL TESTING, Fingerprinting",Georgia
-59,340,154800.0,Purchased Professional Services,Purchased Professional and Technical Services,Professional Legal Services,Georgia
-60,361,22300.0,Miscellaneous,Other Financing Uses,Per Diem and Fees,Georgia
-61,362,700.0,Miscellaneous,Other Financing Uses,Per Diem and Fees - Expenses,Georgia
-62,410,11210893.0,Utilities/Energy,Purchased Property Services,"WATER, SEWER AND CLEANING SERVICES",Georgia
-63,430,19645245.12,Maintenance Costs,Purchased Property Services,REPAIR AND MAINTENANCE SERVICES,Georgia
-64,432,2078505.55,Maintenance Costs,Purchased Property Services,Repair and Maintenance Services - Technology Related,Georgia
-65,441,1771646.0,Rentals,Purchased Property Services,RENTAL OF LAND OR BUILDINGS,Georgia
-66,442,3283225.68,Rentals,Purchased Property Services,RENTAL OF EQUIPMENT AND VEHICLES,Georgia
-67,443,25461.31,Rentals,Purchased Property Services,RENTAL OF COMPUTER EQUIPMENT,Georgia
-68,444,10000.0,Rentals,Purchased Property Services,OTHER RENTALS,Georgia
-69,490,16000.0,Other Property Services,Purchased Property Services,OTHER PURCHASED PROPERTY SERVICES,Georgia
-70,519,2781928.4,Busing/Transportation,Purchased Professional and Technical Services,Student Transportation Purchased from Other Sources,Georgia
-71,520,4360317.0,Other Purchased Services,Purchased Professional and Technical Services,INSURANCE (OTHER THAN EMPLOYEE BENEFITS),Georgia
-72,530,3014408.9,Other Purchased Services,Purchased Professional and Technical Services,COMMUNICATION,Georgia
-73,532,2417266.94,Other Purchased Services,Purchased Professional and Technical Services,Communications – Web-based Subscriptions and Licenses,Georgia
-74,563,2248444.14,Tuition,Employee Benefits,TUITION TO PRIVATE SOURCES,Georgia
-75,570,20150000.0,Food,Other Financing Uses,Food Service Management,Georgia
-76,580,2654462.67,Travel,Purchased Professional and Technical Services,TRAVEL - EMPLOYEES,Georgia
-77,585,36000.0,Travel,Purchased Professional and Technical Services,TRAVEL - SCHOOL BOARD MEMBERS,Georgia
-78,594,133276459.6,Miscellaneous,Other Financing Uses,Payments to Charter Schools,Georgia
-79,595,19568159.93,Other Purchased Services,Purchased Professional and Technical Services,OTHER PURCHASED SERVICES,Georgia
-80,596,622460.0,Buildings,Capital,Residential Facilities,Georgia
-81,611,305928.98,Supplies - Technology,Supplies,Supplies - Technology Related,Georgia
-82,612,8055535.62,Supplies - Technology,Supplies,COMPUTER SOFTWARE,Georgia
-83,615,15014881.84,Supplies - Technology,Supplies,EXPENDABLE EQUIPMENT,Georgia
-84,616,13271029.21,Supplies - Technology,Supplies,EXPENDABLE COMPUTER EQUIPMENT,Georgia
-85,620,19644811.97,Utilities/Energy,Purchased Property Services,ENERGY,Georgia
-86,630,2095880.53,Food,Other Financing Uses,PURCHASED FOOD,Georgia
-87,635,750000.0,Food,Other Financing Uses,FOOD ACQUISITIONS - USDA,Georgia
-88,640,355189.05,Supplies - Technology,Supplies,Digital/Electronic Textbooks,Georgia
-89,641,6242831.0,Instructional Curriculum,Supplies,TEXTBOOKS - Printed,Georgia
-90,642,3362770.1,Instructional Curriculum,Supplies,BOOKS (OTHER THAN TEXTBOOKS) AND PERIODICALS,Georgia
-91,710,8000.0,Land,Capital,LAND ACQUISITION AND DEVELOPMENT,Georgia
-92,715,2950165.0,Land,Capital,LAND IMPROVEMENTS,Georgia
-93,720,99942184.06,Buildings,Capital,"BUILDING ACQUISITION, CONSTRUCTION, AND IMPROVEMEN",Georgia
-94,730,16072419.26,Machinery and Equipment,Capital,PURCHASE OF EQUIPMENT - OTHER THAN BUSES AND COMPU,Georgia
-95,732,7016000.0,Busing/Transportation,Purchased Professional and Technical Services,PURCHASE OR LEASE-PURCHASE OF BUSES,Georgia
-96,734,901367.0,Machinery and Equipment,Capital,PURCHASE OR LEASE-PURCHASE OF EQUIPMENT - TECHNOLOGY RELATED,Georgia
-97,810,3656468.71,Miscellaneous,Other Financing Uses,DUES AND FEES,Georgia
-98,830,4436342.0,Miscellaneous,Other Financing Uses,INTEREST,Georgia
-99,831,1520349.2,Miscellaneous,Other Financing Uses,Redemption of Principal,Georgia
-100,880,2814457.21,Miscellaneous,Other Financing Uses,FEDERAL INDIRECT COST CHARGES,Georgia
-101,881,42910086.16,Miscellaneous,Other Financing Uses,Schoolwide Schools,Georgia
-102,882,3109447.91,Miscellaneous,Other Financing Uses,Federal Administrative Consolidation Program,Georgia
-103,890,3051903.2,Miscellaneous,Other Financing Uses,OTHER EXPENDITURES,Georgia
-104,930,255668592.51,Miscellaneous,Other Financing Uses,OPERATING TRANSFERS TO OTHER FUNDS,Georgia
-105,XXXX,29370254.11,Miscellaneous,Other Financing Uses,*Unable to assign to mapping tool*,Georgia
+,Code,Transactions,Category_Edstruments,Major_Category_Edstruments,Title,State,district
+0,110,225480415.94,Teachers Salaries,Salaries,TEACHERS,Georgia,Atlanta
+1,111,144657.0,Support Staff Salaries,Salaries,SCHOOL BOARD MEMBERS SALARIES,Georgia,Atlanta
+2,112,5384202.79,Teachers Salaries,Salaries,PREKINDERGARTEN TEACHER,Georgia,Atlanta
+3,113,5684627.67,Other Salaries,Salaries,SUBSTITUTE/TEMPORARY EMPLOYEE,Georgia,Atlanta
+4,114,507209.28,Other Salaries,Salaries,SUBSTITUTE/TEMPORARY EMPLOYEE,Georgia,Atlanta
+5,115,166213.77,Teachers Salaries,Salaries,EXTENDED DAY - TEACHERS,Georgia,Atlanta
+6,116,3537254.17,Other Salaries,Salaries,PROFESSIONAL DEVELOPMENT STIPENDS,Georgia,Atlanta
+7,117,7000.0,Other Salaries,Salaries,EXTENDED YEAR,Georgia,Atlanta
+8,118,34596115.09,Teachers Salaries,Salaries,"ART,MUSIC,PE",Georgia,Atlanta
+9,120,473915.31,Administrative Salaries,Salaries,"SUPERINTENDENT, RESA DIRECTOR, TECHNICAL INSTITUTE DIRECTOR",Georgia,Atlanta
+10,121,246492.0,Administrative Salaries,Salaries,"HEADS OF COMPONENTS - DEPUTY, ASSOC, ASSISTANT, AREA SUPT ",Georgia,Atlanta
+11,130,14726889.54,Administrative Salaries,Salaries,PRINCIPAL,Georgia,Atlanta
+12,131,17196080.19,Administrative Salaries,Salaries,ASSISTANT PRINCIPAL,Georgia,Atlanta
+13,140,22529415.13,Support Staff Salaries,Salaries,AIDES AND PARAPROFESSIONALS,Georgia,Atlanta
+14,141,3772278.31,Special Education Salaries,Salaries,Preschool Special Education Teacher,Georgia,Atlanta
+15,141,3772278.31,Support Staff Salaries,Salaries,Salary Of Seretarial Staff,Georgia,Atlanta
+16,142,7788994.46,Support Staff Salaries,Salaries,Salary Of Clerical Staff,Georgia,Atlanta
+17,143,1030249.22,Other Salaries,Salaries,RESEARCH PERSONNEL,Georgia,Atlanta
+18,145,133040.0,Special Education Salaries,Salaries,INTERPRETER,Georgia,Atlanta
+19,146,3594026.35,Other Salaries,Salaries,ATHLETICS PERSONNEL,Georgia,Atlanta
+20,148,141278.65,Other Salaries,Salaries,ACCOUNTANT,Georgia,Atlanta
+21,151,108066.0,Other Salaries,Salaries,LEGAL PERSONNEL,Georgia,Atlanta
+22,161,2549340.77,Special Education Salaries,Salaries,Teacher of Moderate Intellectual Disability Students,Georgia,Atlanta
+23,161,2549340.77,Other Salaries,Salaries,TECHNOLOGY SPECIALIST,Georgia,Atlanta
+24,162,224777.6,Special Education Salaries,Salaries,Teacher of Severe Intellectual Disability Students,Georgia,Atlanta
+25,162,224777.6,Other Salaries,Salaries,PLANNING & EVALUATION PERSONNEL,Georgia,Atlanta
+26,163,3370326.14,Special Education Salaries,Salaries,Teacher of ProfoundIntellectual Disability Students,Georgia,Atlanta
+27,163,3370326.14,Support Staff Salaries,Salaries,SCHOOL NURSE/SPECIAL EDUCATION NURSE LPN,Georgia,Atlanta
+28,164,710742.5,Special Education Salaries,Salaries,Teacher of Hearing Impaired Students,Georgia,Atlanta
+29,164,710742.5,Support Staff Salaries,Salaries,PHYSICAL/OCCUPATIONAL/MOBILITY/SPEECH THERAPIST,Georgia,Atlanta
+30,165,4167108.94,Special Education Salaries,Salaries,Teacher of Visually Impaired Students,Georgia,Atlanta
+31,165,4167108.94,Support Staff Salaries,Salaries,LIBRARIAN/MEDIA SPECIALIST,Georgia,Atlanta
+32,171,186942.0,Special Education Salaries,Salaries,Special Education Interrelated Teacher,Georgia,Atlanta
+33,171,186942.0,Support Staff Salaries,Salaries,TEACHER SUPPORT SPECIALIST/DIAGNOSTICIAN/AUDIOLOGI,Georgia,Atlanta
+34,172,3768790.14,Support Staff Salaries,Salaries,ELEMENTARY COUNSELOR,Georgia,Atlanta
+35,173,5668669.21,Support Staff Salaries,Salaries,SECONDARY COUNSELOR,Georgia,Atlanta
+36,174,2922414.42,Support Staff Salaries,Salaries,SCHOOL PSYCHOLOGIST,Georgia,Atlanta
+37,176,3630788.25,Support Staff Salaries,Salaries,SCHOOL SOCIAL WORKER,Georgia,Atlanta
+38,177,517759.78,Other Salaries,Salaries,Family Services/Parent Coordinator,Georgia,Atlanta
+39,178,683357.44,Other Salaries,Salaries,Graduation Coach,Georgia,Atlanta
+40,179,163408.0,Support Staff Salaries,Salaries,REHABILITATION COUNSELOR,Georgia,Atlanta
+41,180,8077807.81,Support Staff Salaries,Salaries,BUS DRIVERS,Georgia,Atlanta
+42,181,17533634.24,Other Salaries,Salaries,"MAINTENANCE PERSONNEL, TRANSPORTATION MECHANIC, OT",Georgia,Atlanta
+43,184,2026519.72,Other Salaries,Salaries,SCHOOL NUTRITION PROGRAM CAFETERIA,Georgia,Atlanta
+44,186,6028588.56,Support Staff Salaries,Salaries,CUSTODIAL PERSONNEL,Georgia,Atlanta
+45,190,13138669.26,Administrative Salaries,Salaries,OTHER MANAGEMENT PERSONNEL,Georgia,Atlanta
+46,191,61670973.45,Administrative Salaries,Salaries,OTHER ADMINISTRATIVE PERSONNEL,Georgia,Atlanta
+47,199,3791016.32,Other Salaries,Salaries,Other Salaries and Compensation,Georgia,Atlanta
+48,210,69755580.02,Health Insurance/Health Related Benefits,Employee Benefits,State Health Insurance,Georgia,Atlanta
+49,220,8405296.33,Retirement Contributions,Employee Benefits,FICA,Georgia,Atlanta
+50,230,89642008.26,Retirement Contributions,Employee Benefits,Teachers Retirement System,Georgia,Atlanta
+51,260,4804124.33,Workers Compensation,Employee Benefits,Workmen Compensation,Georgia,Atlanta
+52,290,57670711.26,Other Employee Benefits,Employee Benefits,Other Employee Benefits,Georgia,Atlanta
+53,300,103369420.54,Other Purchased Services,Purchased Professional and Technical Services,PURCHASED PROFESSIONAL AND TECHNICAL SERVICES,Georgia,Atlanta
+54,311,5000.0,Other Purchased Services,Purchased Professional and Technical Services,SCHOOL BOARD MEMBERS PER DIEM,Georgia,Atlanta
+55,321,6093756.0,Other Purchased Services,Purchased Professional and Technical Services,Contracted Service - Teachers,Georgia,Atlanta
+56,322,34088.0,Other Purchased Services,Purchased Professional and Technical Services,"Contracted Service - Art,Music,P.E.",Georgia,Atlanta
+57,330,111280.0,Other Purchased Services,Purchased Professional and Technical Services,Contracted Service -Nursing Services,Georgia,Atlanta
+58,332,904.0,Purchased Professional Services,Purchased Professional and Technical Services,"DRUG AND ALCOHOL TESTING, Fingerprinting",Georgia,Atlanta
+59,340,154800.0,Purchased Professional Services,Purchased Professional and Technical Services,Professional Legal Services,Georgia,Atlanta
+60,361,22300.0,Miscellaneous,Other Financing Uses,Per Diem and Fees,Georgia,Atlanta
+61,362,700.0,Miscellaneous,Other Financing Uses,Per Diem and Fees - Expenses,Georgia,Atlanta
+62,410,11210893.0,Utilities/Energy,Purchased Property Services,"WATER, SEWER AND CLEANING SERVICES",Georgia,Atlanta
+63,430,19645245.12,Maintenance Costs,Purchased Property Services,REPAIR AND MAINTENANCE SERVICES,Georgia,Atlanta
+64,432,2078505.55,Maintenance Costs,Purchased Property Services,Repair and Maintenance Services - Technology Related,Georgia,Atlanta
+65,441,1771646.0,Rentals,Purchased Property Services,RENTAL OF LAND OR BUILDINGS,Georgia,Atlanta
+66,442,3283225.68,Rentals,Purchased Property Services,RENTAL OF EQUIPMENT AND VEHICLES,Georgia,Atlanta
+67,443,25461.31,Rentals,Purchased Property Services,RENTAL OF COMPUTER EQUIPMENT,Georgia,Atlanta
+68,444,10000.0,Rentals,Purchased Property Services,OTHER RENTALS,Georgia,Atlanta
+69,490,16000.0,Other Property Services,Purchased Property Services,OTHER PURCHASED PROPERTY SERVICES,Georgia,Atlanta
+70,519,2781928.4,Busing/Transportation,Purchased Professional and Technical Services,Student Transportation Purchased from Other Sources,Georgia,Atlanta
+71,520,4360317.0,Other Purchased Services,Purchased Professional and Technical Services,INSURANCE (OTHER THAN EMPLOYEE BENEFITS),Georgia,Atlanta
+72,530,3014408.9,Other Purchased Services,Purchased Professional and Technical Services,COMMUNICATION,Georgia,Atlanta
+73,532,2417266.94,Other Purchased Services,Purchased Professional and Technical Services,Communications – Web-based Subscriptions and Licenses,Georgia,Atlanta
+74,563,2248444.14,Tuition,Employee Benefits,TUITION TO PRIVATE SOURCES,Georgia,Atlanta
+75,570,20150000.0,Food,Other Financing Uses,Food Service Management,Georgia,Atlanta
+76,580,2654462.67,Travel,Purchased Professional and Technical Services,TRAVEL - EMPLOYEES,Georgia,Atlanta
+77,585,36000.0,Travel,Purchased Professional and Technical Services,TRAVEL - SCHOOL BOARD MEMBERS,Georgia,Atlanta
+78,594,133276459.6,Miscellaneous,Other Financing Uses,Payments to Charter Schools,Georgia,Atlanta
+79,595,19568159.93,Other Purchased Services,Purchased Professional and Technical Services,OTHER PURCHASED SERVICES,Georgia,Atlanta
+80,596,622460.0,Buildings,Capital,Residential Facilities,Georgia,Atlanta
+81,611,305928.98,Supplies - Technology,Supplies,Supplies - Technology Related,Georgia,Atlanta
+82,612,8055535.62,Supplies - Technology,Supplies,COMPUTER SOFTWARE,Georgia,Atlanta
+83,615,15014881.84,Supplies - Technology,Supplies,EXPENDABLE EQUIPMENT,Georgia,Atlanta
+84,616,13271029.21,Supplies - Technology,Supplies,EXPENDABLE COMPUTER EQUIPMENT,Georgia,Atlanta
+85,620,19644811.97,Utilities/Energy,Purchased Property Services,ENERGY,Georgia,Atlanta
+86,630,2095880.53,Food,Other Financing Uses,PURCHASED FOOD,Georgia,Atlanta
+87,635,750000.0,Food,Other Financing Uses,FOOD ACQUISITIONS - USDA,Georgia,Atlanta
+88,640,355189.05,Supplies - Technology,Supplies,Digital/Electronic Textbooks,Georgia,Atlanta
+89,641,6242831.0,Instructional Curriculum,Supplies,TEXTBOOKS - Printed,Georgia,Atlanta
+90,642,3362770.1,Instructional Curriculum,Supplies,BOOKS (OTHER THAN TEXTBOOKS) AND PERIODICALS,Georgia,Atlanta
+91,710,8000.0,Land,Capital,LAND ACQUISITION AND DEVELOPMENT,Georgia,Atlanta
+92,715,2950165.0,Land,Capital,LAND IMPROVEMENTS,Georgia,Atlanta
+93,720,99942184.06,Buildings,Capital,"BUILDING ACQUISITION, CONSTRUCTION, AND IMPROVEMEN",Georgia,Atlanta
+94,730,16072419.26,Machinery and Equipment,Capital,PURCHASE OF EQUIPMENT - OTHER THAN BUSES AND COMPU,Georgia,Atlanta
+95,732,7016000.0,Busing/Transportation,Purchased Professional and Technical Services,PURCHASE OR LEASE-PURCHASE OF BUSES,Georgia,Atlanta
+96,734,901367.0,Machinery and Equipment,Capital,PURCHASE OR LEASE-PURCHASE OF EQUIPMENT - TECHNOLOGY RELATED,Georgia,Atlanta
+97,810,3656468.71,Miscellaneous,Other Financing Uses,DUES AND FEES,Georgia,Atlanta
+98,830,4436342.0,Miscellaneous,Other Financing Uses,INTEREST,Georgia,Atlanta
+99,831,1520349.2,Miscellaneous,Other Financing Uses,Redemption of Principal,Georgia,Atlanta
+100,880,2814457.21,Miscellaneous,Other Financing Uses,FEDERAL INDIRECT COST CHARGES,Georgia,Atlanta
+101,881,42910086.16,Miscellaneous,Other Financing Uses,Schoolwide Schools,Georgia,Atlanta
+102,882,3109447.91,Miscellaneous,Other Financing Uses,Federal Administrative Consolidation Program,Georgia,Atlanta
+103,890,3051903.2,Miscellaneous,Other Financing Uses,OTHER EXPENDITURES,Georgia,Atlanta
+104,930,255668592.51,Miscellaneous,Other Financing Uses,OPERATING TRANSFERS TO OTHER FUNDS,Georgia,Atlanta
+105,XXXX,29370254.11,Miscellaneous,Other Financing Uses,*Unable to assign to mapping tool*,Georgia,Atlanta
