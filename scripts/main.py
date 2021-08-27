@@ -11,6 +11,10 @@ dist_2_id = '1300120'
 dist_1_name = 'Tolleson'
 dist_2_name = 'Atlanta'
 
+#this is where you add in the source of the data used
+source_1 = "an 'Account Details' spreadsheet provided by the school district"
+source_2 = "the Georgia Department of Education's Financial Review Data Collection System BUDGET ANALYSIS REPORT for the year ending June 30, 2019"
+
 #this is where you add in comments for the report - comments MUST be in quotation marks
 comment_1 = 'This is sample comment about the bar chart that shows the 7 major categories'
 comment_2 = 'This is sample comment about the two pie charts and the one large bar chart that show the some of the largest subcategories'
@@ -28,11 +32,11 @@ dir = cwd[:size - 7]
 
 #these two blocks of code run the whole pipline
 def main():
-    create_map(dist_1_id, dist_2_id, dir)
+    sums = create_map(dist_1_id, dist_2_id, dir)
     print('mapping district data to edstruments categories...')
     dist_1_ppe, dist_2_ppe = create_visualizations(dist_1_id, dist_2_id, dist_1_name, dist_2_name, dir)
     print('creating data visualizations... (and ignore above warnings)')
-    output_report(dist_1_id, dist_2_id, dist_1_ppe, dist_2_ppe, comment_1, comment_2, report_name, dir)
+    output_report(dist_1_id, dist_2_id, dist_1_ppe, dist_2_ppe, comment_1, comment_2, report_name, dist_1_name, dist_2_name, source_1, source_2, sums, dir)
     print('all done!')
 
 if __name__ == '__main__':

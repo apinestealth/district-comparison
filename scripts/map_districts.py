@@ -15,6 +15,8 @@ def create_map(district_1, district_2, dir):
     dists = find_unmatched(dist_1_og, maps[0], dist_2_og, maps[1])
     merges = map(dists[0], maps[0], dists[1], maps[1], district_1, district_2)
     create_csv(merges, dir, district_1, district_2)
+    sums = get_sums(merges[0], merges[1])
+    return(sums)
 
 def get_states(district_data, district_1, district_2):
     state_1 = district_data.loc[district_data['nces_schoolID'] == district_1, 'State Name [District] 2018-19_x'].iloc[0].capitalize()
@@ -78,6 +80,12 @@ def create_csv(merges, dir, district_1, district_2):
     #dist 2
     dist_2_merge = merges[1]
     dist_2_merge.to_csv(dir + 'data/processed/' + district_2 + '_mapped.csv')
+
+def get_sums(dist_1_merge, dist_2_merge):
+    dist_1_sum = dist_1_merge['Transactions'].sum()
+    dist_2_sum = dist_2_merge['Transactions'].sum()
+
+    return [dist_1_sum, dist_2_sum]
 
 if __name__ == '__main__':
     create_map()

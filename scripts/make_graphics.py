@@ -121,7 +121,7 @@ def bar_graph_majors(majorcategories, district_1, district_2, dir):
         test.annotate(format(p.get_height(), ',.0f'), (p.get_x() + p.get_width() / 2, p.get_height()), ha = 'center', va = 'center', xytext = (0, 5), textcoords = 'offset points', size=15)
 
     #title & legend
-    test.set_title('Per-Pupil Expenditure Across Aggregated Categories', fontsize=40, y=1.02)
+    test.set_title('Per-Pupil Expenditure Across Aggregated Categories', fontsize=40, y=1.04)
     test.legend(bbox_to_anchor=(1.00, 1.00), loc=2, borderaxespad=0., prop={"size":18})
     
     #some style things
