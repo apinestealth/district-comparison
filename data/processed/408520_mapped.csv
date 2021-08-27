@@ -1,0 +1,82 @@
+,Code,Transactions,Category_Edstruments,Major_Category_Edstruments,Title,State,district
+0,6110,8002.11,Other Salaries,Salaries,Certified Salaries,Arizona,408520
+1,6111,4490251.59,Administrative Salaries,Salaries,Administrators,Arizona,408520
+2,6112,35105711.03,Teachers Salaries,Salaries,Teachers,Arizona,408520
+3,6113,398413.43,Teachers Salaries,Salaries,Substitute Teachers,Arizona,408520
+4,6114,4904906.23,Other Salaries,Salaries,Other Salaries,Arizona,408520
+5,6150,10156.34,Other Salaries,Salaries,Classified Salaries,Arizona,408520
+6,6151,2658644.5,Administrative Salaries,Salaries,Administrators,Arizona,408520
+7,6152,2263865.98,Teachers Salaries,Salaries,Teachers,Arizona,408520
+8,6153,13410019.71,Teachers Salaries,Salaries,Substitute Teachers,Arizona,408520
+9,6154,52735.04,Other Salaries,Salaries,Other Salaries,Arizona,408520
+10,6210,4338036.4,Other Benefits,Employee Benefits,Employee Insurance,Arizona,408520
+11,6221,3770891.78,Retirement Contributions,Employee Benefits,Social Security—OASDI,Arizona,408520
+12,6222,885760.15,Health Insurance/Benefits,Employee Benefits,Medicare—Hospital Insurance,Arizona,408520
+13,6231,7336414.9,Retirement Contributions,Employee Benefits,State Retirement,Arizona,408520
+14,6232,102425.02,Other Benefits,Employee Benefits,Long-Term Disability,Arizona,408520
+15,6250,102758.44,Unemployment Benefits,Employee Benefits,Unemployment Insurance,Arizona,408520
+16,6260,412633.97,Workers Compensation,Employee Benefits,Workers’ Compensation,Arizona,408520
+17,6270,448.33,Health Insurance/Benefits,Employee Benefits,Health Benefits,Arizona,408520
+18,6290,17000.0,Other Benefits,Employee Benefits,Other Employee Benefits,Arizona,408520
+19,6300,53803.95,Professional Services,Professional and Technical Services,PURCHASED PROFESSIONAL AND TECHNICAL SERVICES,Arizona,408520
+20,6310,26495.95,Professional Services,Professional and Technical Services,Official/Administrative Services,Arizona,408520
+21,6320,1572826.35,Professional Services,Professional and Technical Services,Professional—Educational Services,Arizona,408520
+22,6330,2766579.58,Professional Services,Professional and Technical Services,Other Professional Services,Arizona,408520
+23,6340,174035.94,Professional Services,Professional and Technical Services,Technical Services,Arizona,408520
+24,6350,39854.77,Professional Services,Professional and Technical Services,Audit Services,Arizona,408520
+25,6360,194227.42,Professional Services,Professional and Technical Services,Employee Training and Professional Development Services,Arizona,408520
+26,6411,666313.48,Utilities/Energy,Purchased Property Services,Water/Sewage,Arizona,408520
+27,6420,1333737.53,Maintenance Costs,Purchased Property Services,Cleaning Services,Arizona,408520
+28,6421,77108.84,Maintenance Costs,Purchased Property Services,Disposal Services,Arizona,408520
+29,6430,470899.24,Maintenance Costs,Purchased Property Services,Repairs and Maintenance Services,Arizona,408520
+30,6431,229439.59,Maintenance Costs,Purchased Property Services,Nontechnology-Related Repairs and Maintenance,Arizona,408520
+31,6432,91874.0,Maintenance Costs,Purchased Property Services,Technology-Related Repairs and Maintenance,Arizona,408520
+32,6440,32168.99,Rentals,Purchased Property Services,Rentals,Arizona,408520
+33,6441,74274.4,Rentals,Purchased Property Services,Rental of Land and Buildings,Arizona,408520
+34,6442,9326.75,Rentals,Purchased Property Services,Rental of Equipment,Arizona,408520
+35,6450,40045411.52,Buildings,Capital,Construction Services,Arizona,408520
+36,6490,937.0,Buildings,Capital,Other Purchased Property Services,Arizona,408520
+37,6519,116900.19,Busing/Transportation,Professional and Technical Services,Student Transportation Purchased From Other Sources,Arizona,408520
+38,6522,2036376.0,Other Purchased Services,Professional and Technical Services,Prepaid Insurance,Arizona,408520
+39,6531,378177.15,Other Purchased Services,Professional and Technical Services,Telecommunications,Arizona,408520
+40,6532,7129.11,Other Purchased Services,Professional and Technical Services,Other Communications Services,Arizona,408520
+41,6540,39792.41,Other Purchased Services,Professional and Technical Services,Advertising,Arizona,408520
+42,6550,75047.48,Other Purchased Services,Professional and Technical Services,Printing and Binding,Arizona,408520
+43,6561,289849.0,Tuition,Employee Benefits,Tuition to Other Arizona Districts—Tuition,Arizona,408520
+44,6563,594665.04,Tuition,Employee Benefits,Tuition to Private Schools,Arizona,408520
+45,6580,46715.62,Travel,Professional and Technical Services,Travel,Arizona,408520
+46,6590,6649.0,Other Purchased Services,Professional and Technical Services,Miscellaneous Purchased Services,Arizona,408520
+47,6610,2495432.14,Other Supplies,Supplies,General Supplies,Arizona,408520
+48,6611,11400.35,Other Supplies,Supplies,District Supplies,Arizona,408520
+49,6612,66169.88,Other Supplies,Supplies,Supplies for Sale or Rental,Arizona,408520
+50,6621,49061.65,Utilities/Energy,Purchased Property Services,Natural Gas,Arizona,408520
+51,6622,1392016.82,Utilities/Energy,Purchased Property Services,Electricity,Arizona,408520
+52,6623,114265.08,Utilities/Energy,Purchased Property Services,Bottled Gas,Arizona,408520
+53,6626,25324.35,Utilities/Energy,Purchased Property Services,Unleaded Fuel,Arizona,408520
+54,6627,166743.31,Utilities/Energy,Purchased Property Services,Diseal Fuel,Arizona,408520
+55,6631,4761.69,Food,Other Financing Uses,USDA Commodities (Excluding Freight),Arizona,408520
+56,6633,2348765.6,Food,Other Financing Uses,Other Food,Arizona,408520
+57,6641,298676.8,Instructional Curriculum,Supplies,Library Books,Arizona,408520
+58,6642,82452.77,Instructional Curriculum,Supplies,Textbooks,Arizona,408520
+59,6643,728469.99,Instructional Curriculum,Supplies,Instructional Aids,Arizona,408520
+60,6644,8300.39,Instructional Curriculum,Supplies,"Other Books, Periodicals, and Media",Arizona,408520
+61,6710,262635.83,Land,Capital,Land and Existing Land Improvements,Arizona,408520
+62,6720,10635.0,Buildings,Capital,Buildings,Arizona,408520
+63,6731,3036744.85,Machinery and Equipment,Capital,Furniture and Equipment,Arizona,408520
+64,6732,1359637.61,Machinery and Equipment,Capital,Furniture and Equipment,Arizona,408520
+65,6733,2240840.2,Machinery and Equipment,Capital,Furniture and Equipment,Arizona,408520
+66,6736,1668798.32,Machinery and Equipment,Capital,Vehicles,Arizona,408520
+67,6737,1036111.96,Machinery and Equipment,Capital,"Technology-Related Hardware and
+Software",Arizona,408520
+68,6738,1127514.72,Machinery and Equipment,Capital,"Technology-Related Hardware and
+Software",Arizona,408520
+69,6739,1625758.78,Machinery and Equipment,Capital,"Technology-Related Hardware and
+Software",Arizona,408520
+70,6810,266178.79,Miscellaneous,Other Financing Uses,Dues and Fees,Arizona,408520
+71,6831,7225000.0,Debt Service,Other Financing Uses,Bonds,Arizona,408520
+72,6832,1156779.29,Miscellaneous,Other Financing Uses,Other,Arizona,408520
+73,6841,5195243.06,Debt Service,Other Financing Uses,Bond,Arizona,408520
+74,6842,313302.52,Miscellaneous,Other Financing Uses,Other,Arizona,408520
+75,6860,26612.14,Debt Service,Other Financing Uses,Bond Issuance and Other Debt-Related Costs,Arizona,408520
+76,6890,455508.18,Miscellaneous,Other Financing Uses,Miscellaneous Expenditures,Arizona,408520
+77,XXXX,305318.54,Miscellaneous,Other Financing Uses,*Unable to assign to mapping tool*,Arizona,408520

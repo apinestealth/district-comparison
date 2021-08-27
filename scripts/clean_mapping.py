@@ -29,6 +29,11 @@ def clean_code(clean_map):
 
     clean_map["Code"] = clean_map["Code"].str.strip()
 
+    clean_map["Major_Category_Edstruments"] = clean_map["Major_Category_Edstruments"].replace('Purchased Professional and Technical Services', 'Professional and Technical Services')
+    clean_map["Category_Edstruments"] = clean_map["Category_Edstruments"].replace('Purchased Professional Services', 'Professional Services')
+    clean_map["Category_Edstruments"] = clean_map["Category_Edstruments"].replace('Other Employee Benefits', 'Other Benefits')
+    clean_map["Category_Edstruments"] = clean_map["Category_Edstruments"].replace('Health Insurance/Health Related Benefits', 'Health Insurance/Benefits')
+
     return clean_map
 
 #save/create csv

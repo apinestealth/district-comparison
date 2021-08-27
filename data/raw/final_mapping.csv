@@ -1039,6 +1039,7 @@
 1037,595,,OTHER PURCHASED SERVICES,Other Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Georgia
 1038,596,,Residential Facilities,Other Purchased Services,Buildings,Capital,Georgia
 1039,597,,"Subcontracts and Sub-Awards in Excess of the First $25,000",Other Purchased Services,Miscellaneous,Other Financing Uses,Georgia
+104,610,,Supplies,Supplies,Other Supplies,Supplies,Georgia
 1040,611,,Supplies - Technology Related,Supplies,Supplies - Technology,Supplies,Georgia
 1041,612,,COMPUTER SOFTWARE,Supplies,Supplies - Technology,Supplies,Georgia
 1042,615,,EXPENDABLE EQUIPMENT,Supplies,Supplies - Technology,Supplies,Georgia
@@ -5152,7 +5153,7 @@ Outside the State",Other Purchased Services,Busing/Transportation,Purchased Prof
 5107,730,,Equipment,Property,Machinery and Equipment,Capital,New Hampshire
 5108,731,,New Machinery,Property,Machinery and Equipment,Capital,New Hampshire
 5109,732,,New Vehicles,Property,Machinery and Equipment,Capital,New Hampshire
-5110,733,,"New Furniture and	Fixtures",Property,Machinery and Equipment,Capital,New Hampshire
+5110,733,,New Furniture and	Fixtures,Property,Machinery and Equipment,Capital,New Hampshire
 5111,734,,New Computers and Communications Networking Equipment,Property,Machinery and Equipment,Capital,New Hampshire
 5112,735,,Replacement Machinery,Property,Machinery and Equipment,Capital,New Hampshire
 5113,736,,Replacement Vehicles,Property,Machinery and Equipment,Capital,New Hampshire
@@ -5264,7 +5265,7 @@ Outside the State",Other Purchased Services,Busing/Transportation,Purchased Prof
 5219,567,,Tuition to Private Schools for the Disabled and Other LEAs,Other Purchased Services,Tuition,Employee Benefits,New Jersey
 5220,568,,Tuition – State Facilities,Other Purchased Services,Tuition,Employee Benefits,New Jersey
 5221,569,,Tuition – Other,Other Purchased Services,Tuition,Employee Benefits,New Jersey
-5222,56X ,,Contribution (Transfer) of Funds to Charter Schools,Other Purchased Services,Miscellaneous,Other Financing Uses,New Jersey
+5222,56X,,Contribution (Transfer) of Funds to Charter Schools,Other Purchased Services,Miscellaneous,Other Financing Uses,New Jersey
 5223,570,,Tuition to Non-Resident Renaissance School,Other Purchased Services,Tuition,Employee Benefits,New Jersey
 5224,571,,Contribution (Transfer) of Funds to Renaissance Schools,Other Purchased Services,Miscellaneous,Other Financing Uses,New Jersey
 5225,580,,Travel,Other Purchased Services,Travel,Purchased Professional and Technical Services,New Jersey
@@ -5939,7 +5940,7 @@ Outside the State",Other Purchased Services,Busing/Transportation,Purchased Prof
 5894,522,,Replacement Textbooks,SUPPLIES AND MATERIALS,Instructional Curriculum,Supplies,Ohio
 5895,523,,Rebinding Textbooks,SUPPLIES AND MATERIALS,Instructional Curriculum,Supplies,Ohio
 5896,524,,Supplemental Textbooks,SUPPLIES AND MATERIALS,Instructional Curriculum,Supplies,Ohio
-5897,525,,"Electronic Instructional Materials and	Supplies",SUPPLIES AND MATERIALS,Supplies - Technology,Supplies,Ohio
+5897,525,,Electronic Instructional Materials and	Supplies,SUPPLIES AND MATERIALS,Supplies - Technology,Supplies,Ohio
 5898,529,,Other Textbooks,SUPPLIES AND MATERIALS,Instructional Curriculum,Supplies,Ohio
 5899,530,,LIBRARY BOOKS,SUPPLIES AND MATERIALS,Instructional Curriculum,Supplies,Ohio
 5900,531,,New Library Books,SUPPLIES AND MATERIALS,Instructional Curriculum,Supplies,Ohio
@@ -6003,7 +6004,7 @@ Outside the State",Other Purchased Services,Busing/Transportation,Purchased Prof
 5958,825,,Emergency School Loans,OTHER OBJECTS,Debt Service,Other Financing Uses,Ohio
 5959,829,,Other Interest,OTHER OBJECTS,Debt Service,Other Financing Uses,Ohio
 5960,830,,OTHER DEBT SERVICE PAYMENTS,OTHER OBJECTS,Debt Service,Other Financing Uses,Ohio
-5961,831,,"Payments to Escrow Agents (Not Bond	Proceeds)",OTHER OBJECTS,Miscellaneous,Other Financing Uses,Ohio
+5961,831,,Payments to Escrow Agents (Not Bond	Proceeds),OTHER OBJECTS,Miscellaneous,Other Financing Uses,Ohio
 5962,832,,Bond Issuance Costs,OTHER OBJECTS,Debt Service,Other Financing Uses,Ohio
 5963,833,,Refunding Bond Issuance Cost,OTHER OBJECTS,Debt Service,Other Financing Uses,Ohio
 5964,839,,Other Debt Service Payments,OTHER OBJECTS,Debt Service,Other Financing Uses,Ohio
@@ -6050,7 +6051,7 @@ Outside the State",Other Purchased Services,Busing/Transportation,Purchased Prof
 6005,930,,REFUND OF PRIOR YEAR RECEIPTS,OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
 6006,940,,GRANT PAYMENTS TO OTHER DISTRICTS,OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
 6007,941,,Grant Payments to Other School Districts        ,OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
-6008,942,,"Grant Payments to Community Based Organizations/Individuals		",OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
+6008,942,,Grant Payments to Community Based Organizations/Individuals		,OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
 6009,950,,PAYMENTS TO REFUNDED BOND ESCROW AGENT (BOND PROCEEDS),OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
 6010,960,,DISCOUNT ON DEBT,OTHER USES OF FUNDS,Debt Service,Other Financing Uses,Ohio
 6011,961,,Discount on the Sale of Debt,OTHER USES OF FUNDS,Miscellaneous,Other Financing Uses,Ohio
@@ -7325,20 +7326,20 @@ NONEXPENDABLE TRUST FUNDS",OTHER OPERATING COSTS,Other Capital,Capital,Texas
 7272,7350,,Technical Services,Purchased Services,Purchased Professional Services,Purchased Professional and Technical Services,Washington
 7273,7351,,Data Processing and Coding Services,Purchased Services,Purchased Professional Services,Purchased Professional and Technical Services,Washington
 7274,7352,,Other Technical Services,Purchased Services,Purchased Professional Services,Purchased Professional and Technical Services,Washington
-7275,74XX ,,Purchased Services—Property,Purchased Services,Other Property Services,Purchased Property Services,Washington
+7275,74XX,,Purchased Services—Property,Purchased Services,Other Property Services,Purchased Property Services,Washington
 7276,7410,,Utility Services (Water/Sewer),Purchased Services,Utilities/Energy,Purchased Property Services,Washington
 7277,7420,,"Cleaning Services (Garbage Service, Contracted Custodial, Snow Removal)",Purchased Services,Maintenance Costs,Purchased Property Services,Washington
-7278,743X ,,Repairs and Maintenance Services,Purchased Services,Maintenance Costs,Purchased Property Services,Washington
+7278,743X,,Repairs and Maintenance Services,Purchased Services,Maintenance Costs,Purchased Property Services,Washington
 7279,7431,,Non-Technology-Related Repairs and Maintenance,Purchased Services,Maintenance Costs,Purchased Property Services,Washington
 7280,7432,,Technology—Related Repairs and Maintenance,Purchased Services,Maintenance Costs,Purchased Property Services,Washington
-7281,744X ,,Rentals,Purchased Services,Rentals,Purchased Property Services,Washington
+7281,744X,,Rentals,Purchased Services,Rentals,Purchased Property Services,Washington
 7282,7441,,Rentals of Land and Buildings,Purchased Services,Rentals,Purchased Property Services,Washington
 7283,7442,,Rentals of Equipment and Vehicles,Purchased Services,Rentals,Purchased Property Services,Washington
 7284,7443,,Rentals of Computers and Related Equipment (Activities 32 and 72 only),Purchased Services,Rentals,Purchased Property Services,Washington
 7285,7450,,"Contractor Services (minor renovating, remodeling)",Purchased Services,Other Property Services,Purchased Property Services,Washington
 7286,7490,,Other Purchased Property Services,Purchased Services,Other Property Services,Purchased Property Services,Washington
-7287,75XX ,,Other Purchased Services,Purchased Services,Other Property Services,Purchased Property Services,Washington
-7288,751X ,,Student Transportation Services,Purchased Services,Busing/Transportation,Purchased Professional and Technical Services,Washington
+7287,75XX,,Other Purchased Services,Purchased Services,Other Property Services,Purchased Property Services,Washington
+7288,751X,,Student Transportation Services,Purchased Services,Busing/Transportation,Purchased Professional and Technical Services,Washington
 7289,7511,,Student Transportation Purchased From Another School District or ESD,Purchased Services,Busing/Transportation,Purchased Professional and Technical Services,Washington
 7290,7512,,Student Transportation Purchased From an LEA or SEA Out-of-State,Purchased Services,Busing/Transportation,Purchased Professional and Technical Services,Washington
 7291,7519,,Student Transportation Services Purchased From Another Source,Purchased Services,Busing/Transportation,Purchased Professional and Technical Services,Washington
@@ -7346,15 +7347,15 @@ NONEXPENDABLE TRUST FUNDS",OTHER OPERATING COSTS,Other Capital,Capital,Texas
 7293,7530,,Communications,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
 7294,7540,,Advertising,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
 7295,7550,,Printing and Binding,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
-7296,756X ,,Tuition—(Students),Purchased Services,Tuition,Employee Benefits,Washington
+7296,756X,,Tuition—(Students),Purchased Services,Tuition,Employee Benefits,Washington
 7297,7565,,Tuition Paid to Postsecondary Schools (Dual Credit),Purchased Services,Tuition,Employee Benefits,Washington
 7298,7569,,Tuition—Other,Purchased Services,Other Employee Benefits,Employee Benefits,Washington
 7299,7570,,Food Service Management (FSMC),Purchased Services,Food,Other Financing Uses,Washington
 7300,7580,,Registration and Entrance Fees,Purchased Services,Miscellaneous,Other Financing Uses,Washington
-7301,759X ,,Interagency Purchased Services,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
+7301,759X,,Interagency Purchased Services,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
 7302,7591,,Services Purchased From Another School District or ESD,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
 7303,7592,,Services Purchased From Another LEA or SEA Out-of-State,Purchased Services,Other Purchased Services,Purchased Professional and Technical Services,Washington
-7304,762X ,,Energy,Purchased Services,Utilities/Energy,Purchased Property Services,Washington
+7304,762X,,Energy,Purchased Services,Utilities/Energy,Purchased Property Services,Washington
 7305,7621,,Natural Gas,Purchased Services,Utilities/Energy,Purchased Property Services,Washington
 7306,7622,,Electricity,Purchased Services,Utilities/Energy,Purchased Property Services,Washington
 7307,7623,, Bottled Gas,Purchased Services,Utilities/Energy,Purchased Property Services,Washington
