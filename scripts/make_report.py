@@ -1,7 +1,6 @@
 import pandas as pd
 from fpdf import FPDF
 from PIL import Image
-import sys
 
 def output_report(district_1, district_2, dist_1_ppe, dist_2_ppe, comment_1, comment_2, report_name, dist_1_name, dist_2_name, source_1, source_2, sums, dir):
     #load graphics
