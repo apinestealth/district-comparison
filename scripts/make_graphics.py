@@ -10,10 +10,11 @@ def create_visualizations(district_1, district_2, dist_1_name, dist_2_name, dir)
     district_data['nces_schoolID'] = district_data['nces_schoolID'].astype(str)
     dist_1 = pd.read_csv(dir + 'data/processed/' + district_1 + '_mapped.csv')
     dist_2 = pd.read_csv(dir + 'data/processed/' + district_2 + '_mapped.csv')
+    mapping = pd.read_csv(dir + 'data/processed/mapping.csv')
     
     #run functions
     dist_1_students, dist_2_students = get_students(district_data, district_1, district_2)
-    collection = make_dataframes(dist_1, dist_2, dist_1_students, dist_2_students, dist_1_name, dist_2_name)
+    collection = make_dataframes(dist_1, dist_2, dist_1_students, dist_2_students, dist_1_name, dist_2_name, mapping)
     bar_graph_majors(collection[5], district_1, district_2, dir)
     bar_graph_subs(collection[4], district_1, district_2, dir)
     pie_charts(collection[6], collection[7], district_1, district_2, dist_1_name, dist_2_name, dir)
@@ -28,23 +29,26 @@ def get_students(district_data, district_1, district_2):
 
     return dist_1_students, dist_2_students
 
-def make_dataframes(dist_1, dist_2, dist_1_students, dist_2_students, dist_1_name, dist_2_name):
-    #palette to be used for pie charts
-    palette = ['#559C6C', '#9F8EA1', '#6ABBA1', '#3E9AE3', '#B9ABBF', '#90D8D1', '#B1D6E7', '#D4C8DF', '#C1F4FA', '#CB91BD', '#EFE7FF', '#8BD8F1', '#4F86C9', '#D0CCF1', '#5BBAEB', '#D1B8CA', '#ADB3E4', '#857383', '#849BD7', '#857383', '#3e9ae3', '#b1d6e7', '#4f86c9', '#CB91BD', '#559c6c', '#d1b8ca']
+def make_dataframes(dist_1, dist_2, dist_1_students, dist_2_students, dist_1_name, dist_2_name, mapping):
+    #create palette
+    palette_list = ['#b1d6e7', '#9bcfdd', '#86c7d1', '#58af9a', '#54a684', '#559c6c', '#9f8ea1', '#a08fa8', '#a090af', '#9e91b7', '#9b93bf', '#9595c7', '#8e98cf', '#849bd7', '#cb91bd', '#c08ec1', '#b38cc4', '#a48ac7', '#9389c9', '#8088cb', '#72c0c1', '#62b8af', '#6a87cb', '#4f86c9', '#dd9fa2',  '#d8abba', '#c9a9c7', '#b7aed4', '#a0b3db', '#88b9da', '#76bdd1']
+    categories = mapping['Category_Edstruments'].unique()
+    categories_list = categories.tolist()
 
+    p = {'Category_Edstruments': categories_list, 'palette': palette_list}
+    palette_df = pd.DataFrame(data=p)
+    
     #create dist 1 dataframe of subcategories
     dist_1_subcategories = dist_1.groupby("Category_Edstruments")['Transactions'].sum().reset_index()
     dist_1_subcategories['Per Pupil'] = dist_1_subcategories['Transactions']/dist_1_students
-    dist_1_len = len(dist_1_subcategories.index)
-    palette_1 = palette[:dist_1_len]
-    dist_1_subcategories['palette'] = palette_1
     dist_1_subcategories = dist_1_subcategories.sort_values(by = 'Per Pupil', ascending = False )
     dist_1_subcategories['district'] = dist_1_name
     
     #create dist 1 dataframe for the pie chart
     dist_1_other = dist_1_subcategories[10:]['Per Pupil'].sum()
     dist_1_subcategories_pie = dist_1_subcategories[:10]
-    dist_1_subcategories_pie.loc[len(dist_1_subcategories_pie.index)] = ['Other', 0, dist_1_other, '#ADB3E4', 'Tolleson']
+    dist_1_subcategories_pie = dist_1_subcategories_pie.merge(palette_df, how='left', on='Category_Edstruments')
+    dist_1_subcategories_pie.loc[len(dist_1_subcategories_pie.index)] = ['Other', 0, dist_1_other, 'Tolleson', '#EFCFE7']
 
     #create dist 1 dataframe of aggregated major categories
     dist_1_majorcategories = dist_1.groupby("Major_Category_Edstruments")['Transactions'].sum().reset_index()
@@ -56,16 +60,14 @@ def make_dataframes(dist_1, dist_2, dist_1_students, dist_2_students, dist_1_nam
     #create dist 2 dataframe of subcategories
     dist_2_subcategories = dist_2.groupby("Category_Edstruments")['Transactions'].sum().reset_index()
     dist_2_subcategories['Per Pupil'] = dist_2_subcategories['Transactions']/dist_2_students
-    dist_2_len = len(dist_2_subcategories.index)
-    palette_2 = palette[:dist_2_len]
-    dist_2_subcategories['palette'] = palette_2
     dist_2_subcategories = dist_2_subcategories.sort_values(by = 'Per Pupil', ascending = False )
     dist_2_subcategories['district'] = dist_2_name
 
     #create dist 2 dataframe for the pie chart
     dist_2_other = dist_2_subcategories[10:]['Per Pupil'].sum()
     dist_2_subcategories_pie = dist_2_subcategories[:10]
-    dist_2_subcategories_pie.loc[len(dist_2_subcategories_pie.index) + 1] = ['Other', 0, dist_2_other, '#ADB3E4', 'Atlanta']
+    dist_2_subcategories_pie = dist_2_subcategories_pie.merge(palette_df, how='left', on='Category_Edstruments')
+    dist_2_subcategories_pie.loc[len(dist_2_subcategories_pie.index) + 1] = ['Other', 0, dist_2_other, 'Atlanta', '#EFCFE7']
 
     #create dist 2 dataframe of aggregated major categories
     dist_2_majorcategories = dist_2.groupby("Major_Category_Edstruments")['Transactions'].sum().reset_index()
@@ -109,20 +111,20 @@ def bar_graph_majors(majorcategories, district_1, district_2, dir):
         data=majorcategories, x='Major_Category_Edstruments', y='Per Pupil', hue="district", palette=palette)
 
     #axis labels
-    plt.yticks(size=18,)
-    plt.xticks(size=18,)
-    plt.xlabel('Major Categories', fontsize=25)
-    plt.ylabel('Per-Pupil Expenditure', fontsize=25)
+    plt.yticks(size=20,)
+    plt.xticks(size=20,)
+    plt.xlabel('Major Categories', fontsize=28)
+    plt.ylabel('Per-Pupil Expenditure', fontsize=28)
     test.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('${x:,.0f}'))
-    test.set_xticklabels([textwrap.fill(e, 16) for e in majorcategories['Major_Category_Edstruments'][::2]])
+    test.set_xticklabels([textwrap.fill(e, 15) for e in majorcategories['Major_Category_Edstruments'][::2]])
 
     #numbers on top of bars
     for p in test.patches:
-        test.annotate(format(p.get_height(), ',.0f'), (p.get_x() + p.get_width() / 2, p.get_height()), ha = 'center', va = 'center', xytext = (0, 5), textcoords = 'offset points', size=15)
+        test.annotate(format(p.get_height(), ',.0f'), (p.get_x() + p.get_width() / 2, p.get_height()), ha = 'center', va = 'center', xytext = (0, 5), textcoords = 'offset points', size=18)
 
     #title & legend
-    test.set_title('Per-Pupil Expenditure Across Aggregated Categories', fontsize=40, y=1.04)
-    test.legend(bbox_to_anchor=(1.00, 1.00), loc=2, borderaxespad=0., prop={"size":18})
+    #test.set_title('Per-Pupil Expenditure Across Aggregated Categories', fontsize=40, y=1.04)
+    test.legend(bbox_to_anchor=(1.02, 1.00), loc=2, borderaxespad=0., prop={"size":20})
     
     #some style things
     sns.despine()
@@ -157,7 +159,7 @@ def bar_graph_subs(subcategories, district_1, district_2, dir):
         '{:,.0f}'.format(width), ha='center', va='center', size=20)
 
     #title & legend
-    test.set_title('Per-Pupil Expenditure Across Twenty Largest Categories', fontsize=40, y=1.02)
+    #test.set_title('Per-Pupil Expenditure Across Twenty Largest Categories', fontsize=40, y=1.02)
     test.legend(bbox_to_anchor=(1.1, .98), loc=2, borderaxespad=0., prop={"size":20})
     
     #style things
@@ -174,17 +176,17 @@ def pie_charts(dist_1_subcategories, dist_2_subcategories, district_1, district_
 
     fig1, ax1 = plt.subplots(figsize=(10, 10))
 
-    patches, texts, autotexts = ax1.pie(sizes, labels=dist_1_subcategories["Category_Edstruments"], autopct='%1.1f%%',
-        shadow=False, startangle=0, colors=palette, normalize=True, labeldistance=1.05, pctdistance=.9)
+    patches, texts, autotexts = ax1.pie(sizes, labels=dist_1_subcategories["Category_Edstruments"], autopct='%.1f',
+        shadow=False, startangle=0, colors=palette, normalize=True, labeldistance=1.05, pctdistance=.92)
      
     for text in texts:
         text.set_size(18)
     for autotext in autotexts:
         autotext.set_color('black')
-        autotext.set_size(12)
+        autotext.set_size(15)
     
     ax1.axis('equal')
-    ax1.set_title(dist_1_name.capitalize(), fontsize=34)
+    ax1.set_title(dist_1_name.capitalize() + ' (%)', fontsize=34)
     plt.savefig(dir + "graphics/PieChart_" + district_1 + ".png", bbox_inches='tight')
 
     #dist 2 pie chart
@@ -193,17 +195,17 @@ def pie_charts(dist_1_subcategories, dist_2_subcategories, district_1, district_
 
     fig1, ax1 = plt.subplots(figsize=(10, 10))
 
-    patches, texts, autotexts = ax1.pie(sizes, labels=dist_2_subcategories["Category_Edstruments"], autopct='%1.1f%%',
-        shadow=False, startangle=0, colors=palette, normalize=True, labeldistance=1.05, pctdistance=.9)
+    patches, texts, autotexts = ax1.pie(sizes, labels=dist_2_subcategories["Category_Edstruments"], autopct='%.1f',
+        shadow=False, startangle=0, colors=palette, normalize=True, labeldistance=1.05, pctdistance=.92)
 
     for text in texts:
         text.set_size(18)
     for autotext in autotexts:
         autotext.set_color('black')
-        autotext.set_size(12)
+        autotext.set_size(15)
     
     ax1.axis('equal')
-    ax1.set_title(dist_2_name.capitalize(), fontsize=34)
+    ax1.set_title(dist_2_name.capitalize() + ' (%)', fontsize=34)
     plt.savefig(dir + "graphics/PieChart_" + district_2 + ".png", bbox_inches='tight')
 
 if __name__ == '__main__':

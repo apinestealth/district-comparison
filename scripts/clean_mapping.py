@@ -11,7 +11,7 @@ def process_data():
     clean_map = clean_code(clean_map)
     create_csv(clean_map)
 
-#get rid of unnecesary colums
+#get rid of unnecesary columns
 def clean_sheet(mapping):
     cols = ["Object_code","Function_code", "Category_Edstruments","Major_Category_Edstruments","Title", "State"]
     clean_map = mapping[cols]
@@ -24,9 +24,6 @@ def clean_code(clean_map):
     clean_map["Code"] = ''
     clean_map["Code"] = np.where(clean_map["Object_code"] == 0, clean_map["Function_code"], clean_map["Object_code"])
     clean_map["Code"] = clean_map["Code"].astype(str)
-    #clean_map = clean_map[clean_map["Code"].str.contains('X')==False]
-    #clean_map["Code"] = clean_map["Code"].astype(float).astype(int)
-
     clean_map["Code"] = clean_map["Code"].str.strip()
 
     clean_map["Major_Category_Edstruments"] = clean_map["Major_Category_Edstruments"].replace('Purchased Professional and Technical Services', 'Professional and Technical Services')
