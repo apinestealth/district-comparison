@@ -66,7 +66,7 @@ def create_facts(pdf, dist_1_name, dist_2_name, district_1, district_2, district
     pdf.set_y(117)
     pdf.set_x(353)
     pdf.cell(0, 6, '1, 2', 0, 0, 'L')
-    
+
     #box
     pdf.rect(53, 139, 490, 267)
 
@@ -224,7 +224,7 @@ def page_1_bar(pdf, major_bar, comment_1, comment_2, dist_1_ppe, dist_2_ppe, dis
     pdf.set_y(454)
     pdf.set_x(412)
     pdf.cell(0, 6, '3', 0, 0, 'L')
-    
+
     #add bar chart
     pdf.image(major_bar, 37, 476, 431, 0)
 
@@ -262,10 +262,10 @@ def footnote(pdf, source):
     pdf.set_font('Helvetica', '', 6)
     pdf.set_y(777)
     pdf.set_x(32)
-    pdf.multi_cell(527, 8, "1. The data for the District Fast Facts table was sourced from NCIS School District Data from 2018-2019 with the exception of the 'Total Yearly Expenditures' numbers which were sourced from the data noted in footnote #3.", 0, 'L')
+    pdf.multi_cell(527, 8, "1. The data for the District Fast Facts table was sourced from NCES School District Data from 2018-2019 with the exception of the 'Total Yearly Expenditures' numbers which were sourced from the data noted in footnote #3.", 0, 'L')
     pdf.set_y(796)
     pdf.set_x(32)
-    pdf.multi_cell(527, 8, "2. If data in this table is marked with 'n/a' then the data is missing from NCIS records.", 0, 'L')
+    pdf.multi_cell(527, 8, "2. If data in this table is marked with 'n/a' then the data is missing from NCES records.", 0, 'L')
     pdf.set_y(807)
     pdf.set_x(32)
     pdf.multi_cell(527, 8, f"3. {source}", 0, 'L')
@@ -312,7 +312,7 @@ def page_2(pdf, sub_bar, comment_2, pie_1, pie_2):
 
 """
 Calculates and prints out in terminal the difference
-in ppe between ncis data and the calculations made by this tool.
+in ppe between NCES data and the calculations made by this tool.
 """
 def output_difference(district_data, district_1, district_2, dist_1_ppe, dist_2_ppe, dist_1_name, dist_2_name):
     dist_1_ppe_reported = district_data.loc[district_data['nces_schoolID'] == district_1, 'District Per Pupil Total Expense_x'].iloc[0]
@@ -324,7 +324,7 @@ def output_difference(district_data, district_1, district_2, dist_1_ppe, dist_2_
     if dist_1_diff > 0:
         more_less_1 = 'more'
     dist_1_diff = "${:,.0f}".format(abs(dist_1_diff))
-    print(f"The NCIS Data reports that {dist_1_name}'s per-pupil expenditures are {dist_1_diff} {more_less_1} than calculated with this tool.")
+    print(f"The NCES Data reports that {dist_1_name}'s per-pupil expenditures are {dist_1_diff} {more_less_1} than calculated with this tool.")
 
     dist_2_ppe_reported = district_data.loc[district_data['nces_schoolID'] == district_2, 'District Per Pupil Total Expense_x'].iloc[0]
     numeric_filter_2 = filter(str.isdigit, dist_2_ppe)
@@ -335,7 +335,7 @@ def output_difference(district_data, district_1, district_2, dist_1_ppe, dist_2_
     if dist_2_diff > 0:
         more_less_2 = 'more'
     dist_2_diff = "${:,.0f}".format(abs(dist_2_diff))
-    print(f"The NCIS Data reports that {dist_2_name}'s per-pupil expenditures are {dist_2_diff} {more_less_2} than calculated with this tool.")
+    print(f"The NCES Data reports that {dist_2_name}'s per-pupil expenditures are {dist_2_diff} {more_less_2} than calculated with this tool.")
 
 if __name__ == '__main__':
     output_report()

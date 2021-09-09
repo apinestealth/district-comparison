@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #define variables
-data_dir = '/Users/annagreene/code/district-comparison/data/'
+data_dir = '/Users/adity/OneDrive/Edstruments/Github/district-comparison/data/'
 raw_dist = pd.read_csv(data_dir + 'raw/atlantaExample.csv')
 replace = [',', '$', '-', '(', ')']
 
@@ -41,7 +41,7 @@ def clean_transactions(dist):
     return dist
 
 def create_csv(dist):
-    dist.to_csv(data_dir + 'processed/atlanta.csv')
+    dist.to_csv(data_dir + 'processed/1300120.csv')
 
 if __name__ == '__main__':
     process_data()

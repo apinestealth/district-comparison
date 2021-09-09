@@ -1,8 +1,8 @@
 '''INPUT COMMENTS BELOW'''
 #please put in a custom report name here - name MUST be in quotation marks
-report_name = 'Sample Tolleson & Atlanta District Comparison Report'
+report_name = 'Tolleson & Atlanta School Districts Expenditures Comparison Report'
 
-#this is where you input the ncis id for the districts you are comparing - ID MUST be in quotation marks
+#this is where you input the NCES id for the districts you are comparing - ID MUST be in quotation marks
 dist_1_id = '408520'
 dist_2_id = '1300120'
 
