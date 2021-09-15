@@ -23,15 +23,15 @@ def clean_all(raw_dist):
     dist = dist.drop(columns=['Unnamed: 1', 'DESCRIPTION'])
     dist = dist.rename(columns={'ACCOUNT': 'Code', ' AMOUNT ': 'Transactions'})
 
-    dist = dist[dist.Code != 594]
-    dist = dist[dist.Code != 930]
-
     return dist
 
 #isolate object code
 def get_code(dist):
     dist['Code'] = dist['Code'].str[5:8]
     dist['Code'] = dist['Code'].astype(str)
+
+    dist = dist[dist.Code != '594']
+    dist = dist[dist.Code != '930']
 
     return dist
 
