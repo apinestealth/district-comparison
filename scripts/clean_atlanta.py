@@ -1,8 +1,12 @@
 import pandas as pd
 import numpy as np
+import os
 
 #define variables
-data_dir = '/Users/adity/OneDrive/Edstruments/Github/district-comparison/data/'
+cwd = os.getcwd()
+size = len(cwd)
+dir = cwd[:size - 7]
+data_dir = dir + '/data/'
 raw_dist = pd.read_csv(data_dir + 'raw/atlantaExample.csv')
 replace = [',', '$', '-', '(', ')']
 
