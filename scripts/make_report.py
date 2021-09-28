@@ -320,9 +320,9 @@ def output_difference(district_data, district_1, district_2, dist_1_ppe, dist_2_
     numeric_string_1 = "".join(numeric_filter_1)
     dist_1_diff = int(numeric_string_1) - int(dist_1_ppe_reported)
     if dist_1_diff < 0:
-        more_less_1 = 'less'
-    if dist_1_diff > 0:
         more_less_1 = 'more'
+    if dist_1_diff > 0:
+        more_less_1 = 'less'
     dist_1_diff = "${:,.0f}".format(abs(dist_1_diff))
     print(f"The NCES Data reports that {dist_1_name}'s per-pupil expenditures are {dist_1_diff} {more_less_1} than calculated with this tool.")
 
@@ -331,9 +331,9 @@ def output_difference(district_data, district_1, district_2, dist_1_ppe, dist_2_
     numeric_string_2 = "".join(numeric_filter_2)
     dist_2_diff = int(numeric_string_2) - int(dist_2_ppe_reported)
     if dist_2_diff < 0:
-        more_less_2 = 'less'
-    if dist_2_diff > 0:
         more_less_2 = 'more'
+    if dist_2_diff > 0:
+        more_less_2 = 'less'
     dist_2_diff = "${:,.0f}".format(abs(dist_2_diff))
     print(f"The NCES Data reports that {dist_2_name}'s per-pupil expenditures are {dist_2_diff} {more_less_2} than calculated with this tool.")
 
